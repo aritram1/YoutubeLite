@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menu--header">
+                <h3>Saved Playlists</h3>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item ">
+                    <img class="vCentered" src="./resources/menu.png" alt="| image1 |"/> 
+                    <div>Javascript videos</div>
+                </div>
+                <div class="menu-item">
+                    <img class="vCentered" src="./resources/menu.png" alt="| image2 |"/> 
+                    <div>Nature Documentaries</div>
+                </div>
+                <input type="button" class="close" value="Close" onclick="hideMenu(this);"/>
+            </div>
+        </div>
+        <div class="header">        
+            <div class="menu-icon" onclick="showMenu(this);">
+                <img src="./resources/menu_modified.png" alt="|Menu|"/>
+            </div>
+            <div class="header-logo">
+                <img src="./resources/logo.png" alt="|logo|"/>
+            </div>
+            <div class="header-search vCentered">
+                <!-- <img src="./resources/searchIcon.png" alt="header-search-icon-1"/> -->
+                <!-- <input type="text" placeholder="Search here..." value=""/> -->
+                <img src="./resources/voicesearch.png" alt="header-search-icon-2"/>
+            </div>
+            <div class="header-right vCentered">
+                <img src="./resources/right-video.png" alt="Img1 |"/>
+                <img src="./resources/right-menu.png" alt="Img2 |"/>
+                <img src="./resources/right-notification.png" alt="Img3 |"/>
+                <img src="./resources/right-profileImage.png" alt="Img4 |"/>
+            </div>
+        </div>
+        <div class="content">
+            <div class="player">
+                <div class="play-button">
+                    TEST
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="playlist">
+                    <div class="playlist-item vCentered">
+                        <img src="./resources/right-video.png" alt="play-list-image-1|"/>
+                    </div>
+                    <div class="playlist-item vCentered">
+                        <img src="./resources/right-video.png" alt="play-list-image-2|"/>
+                    </div>
+                    <div class="playlist-item vCentered">
+                        <img src="./resources/right-video.png" alt="play-list-image-3|"/>
+                    </div>
+                </div>
+                <div class="recolist">
+                    <div class="reco-list-item vCentered">
+                        <img src="./resources/right-video.png" alt="reco-list-image-1|"/>
+                    </div>
+                    <div class="reco-list-item vCentered">
+                        <img src="./resources/right-video.png" alt="reco-list-image-2|"/>
+                    </div>
+                    <div class="reco-list-item vCentered">
+                        <img src="./resources/right-video.png" alt="reco-list-image-3|"/>
+                    </div>
+                    <div class="reco-list-item vCentered">
+                        <img src="./resources/right-video.png" alt="reco-list-image-4|"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
